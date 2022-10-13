@@ -20,9 +20,8 @@ requirements:
     - python >=3.4
   run:
     - python >=3.4
-    - google-auth-oauthlib
-    - google-auth-httplib2
     - google-api-python-client
+    - oauth2client
 
 test:
   imports:
