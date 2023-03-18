@@ -1,11 +1,11 @@
-About ezsheets
-==============
+About ezsheets-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ezsheets-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/asweigart/ezsheets
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ezsheets-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Pythonic interface to the Google Sheets API that actually works as of August 2021.
 
