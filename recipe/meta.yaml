@@ -1,5 +1,5 @@
 {% set name = "ezsheets" %}
-{% set version = "2023.3.14" %}
+{% set version = "2023.8.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/EZSheets-{{ version }}.tar.gz
-  sha256: 8b1ca7add2349d1061622b97ef6ad3ca12179ceb5528682d4b6f9e841aebab5f
+  sha256: da3b76f772885fa4be182143b84e3e04508579a04171992b097ff2ab2f669782
 
 build:
   noarch: python
