@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/EZSheets-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/EZSheets-{{ version }}.tar.gz
   sha256: 9c5a3b76fb73209ddff79bf2090e14f16dc851198c7be2184d5c1f393191ce90
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
-    - python >=3.4
+    - python {{ python_min }}
   run:
-    - python >=3.4
+    - python >={{ python_min }}
     - google-api-python-client
     - google-auth-oauthlib
     - oauth2client
@@ -31,6 +31,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/asweigart/ezsheets
