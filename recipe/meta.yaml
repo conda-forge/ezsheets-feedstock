@@ -22,8 +22,8 @@ requirements:
   run:
     - python >={{ python_min }}
     - google-api-python-client
+    - google-auth-httplib2
     - google-auth-oauthlib
-    - oauth2client
 
 test:
   imports:
