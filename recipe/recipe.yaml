@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ezsheets
-  version: 2025.11.11
+  version: "2026.4.28"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: b175bb85f9e66ef2d147271e97abab601371e36236a1fe96f22d69b284dff29a
+  sha256: a7f6a9b1ee2dfd2eaa22945fcf0e3f927058e45bae70ece2a8dc53eeb054d161
 
 build:
   number: 0
